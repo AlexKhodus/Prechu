@@ -1,0 +1,39 @@
+doctype html
+html
+    head
+        meta(charset = 'utf-8')
+        meta(name='viewport', content="initial-scale=1.0, width=device-width")
+        title Prechu
+        link(rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/fonts/slick.svg")
+        link(rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css")
+        link(rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css")
+        link(rel="stylesheet" href="assets/css/style.css")
+    body
+        header
+            include template/header
+        main
+            .main
+                include template/slider
+            .advantages_border
+            .advantages
+                    include template/advantages_cart
+            .info
+                h1 The Shopping Cart
+                .info_wrap
+                    .info-right
+                        img(src="assets/img/cart.png")
+                    .info-left
+                        h2 Some Bullet text here
+                        span Lorem Ipsum is simply dummy text of the printing and typesetting
+                        span Lorem Ipsum has been the industry's standard dummy text ever
+                        span When an unknown printer took a galley of type and scrambled
+                        span It to make a type specimen book. It has survived not only five centuries
+                        span But also the leap into electronic typesetting,
+                        span Remaining essentially unchanged. It was popularised
+                        span The release of Letraset sheets containing Lorem Ipsum passages
+        footer
+            include template/footer
+        script(type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js")
+        script(type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js")
+        script(type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js")
+        script(type="text/javascript" src="assets/js/scripts.min.js")

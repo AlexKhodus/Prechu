@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'SegoeWPN';                              /* Гарнитура шрифта */
+  src: url('../../build/assets/fonts/SegoeWPN.ttf');
+}
+@font-face {
+  font-family: 'Segoe_WP_Light';
+  src: url('../../build/assets/fonts/Segoe_WP_Light.ttf');
+}
+.header h1{
+  font-family: 'SegoeWPN';
+}
